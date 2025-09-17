@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: xiaoyuan.jpg
   image_circular: false # crops the image to make it circular
   more_info: ""
   social: true # enables social icons below profile picture
