@@ -1,5 +1,9 @@
 // Custom styles
 
+// Custom styles
+
+$profile-social-font-size: 2rem;
+
 .profile .social.profile-social {
   margin-top: -2rem;
   text-align: center;
@@ -8,11 +12,12 @@
     margin-bottom: 0.2rem;
     
     a {
-      font-size: 2rem !important;
+      font-size: $profile-social-font-size !important;
       margin: 3px;
       
-      i {
-        font-size: 2rem !important;
+      // Increase selector specificity to avoid !important
+      a.profile-social-icon i {
+        font-size: $profile-social-font-size;
       }
     }
   }
