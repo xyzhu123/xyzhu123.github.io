@@ -1,0 +1,23 @@
+// Custom styles
+
+.profile .social.profile-social {
+  margin-top: -2rem;
+  text-align: center;
+  
+  .contact-icons {
+    margin-bottom: 0.2rem;
+    
+    a {
+      font-size: 2rem !important;
+      margin: 3px;
+      
+      i {
+        font-size: 2rem !important;
+      }
+    }
+  }
+  
+  .contact-note {
+    font-size: 0.8rem;
+  }
+}
