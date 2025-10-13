@@ -41,6 +41,9 @@ layout: default
             <div class="contact-note">{{ site.contact_note }}</div>
           </div>
         {% endif %}
+        {% if page.subtitle %}
+          <p class="desc mobile-profile-subtitle">{{ page.subtitle }}</p>
+        {% endif %}
       </div>
     {% endif %}
 

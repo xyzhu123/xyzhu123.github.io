@@ -1,7 +1,5 @@
 // Custom styles
 
-// Custom styles
-
 $profile-social-font-size: 2rem;
 
 .profile .social.profile-social {
@@ -44,4 +42,31 @@ $profile-social-font-size: 2rem;
 
 .post.about-page .post-header {
   margin-bottom: 0.75rem; 
+}
+
+/* Move subtitle below profile socials on mobile */
+.post.about-page .mobile-profile-subtitle {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .post.about-page .post-header .desc {
+    display: none; /* hide header subtitle on mobile */
+  }
+  .post.about-page .mobile-profile-subtitle {
+    display: block; /* show the one under the profile socials */
+    margin-top: -0.75rem;
+    text-align: center;
+    color: var(--global-text-color-light);
+  }
+
+  .post.about-page .profile {
+    margin-top: 0; 
+  }
+  .post.about-page .profile .profile-social {
+    margin-top: 0.75; 
+  }
+  .post.about-page .post-header {
+    margin-bottom: 0rem; 
+  }
 }
