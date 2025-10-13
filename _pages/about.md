@@ -28,3 +28,6 @@ latest_posts:
 Hi, I'm Xiaoyuan ; ) I'm a fourth-year student at [University of Southern California](https://www.usc.edu/), double majoring in Computer Science and Applied Mathematics. 
 
 I conduct research on 
+
+
+**I’m applying to Ph.D. programs in Fall 2025!**

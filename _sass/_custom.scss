@@ -26,3 +26,22 @@ $profile-social-font-size: 2rem;
     font-size: 0.8rem;
   }
 }
+
+.post.about-page .profile {
+  margin-top: -70px; 
+}
+
+/* Make the profile photo smaller on desktop/tablet */
+@media (min-width: 576px) {
+  .post.about-page .profile {
+    width: 25%; /* was 30% by default */
+  }
+}
+
+.post.about-page .profile .profile-social {
+  margin-top: -50px;
+}
+
+.post.about-page .post-header {
+  margin-bottom: 0.75rem; 
+}
