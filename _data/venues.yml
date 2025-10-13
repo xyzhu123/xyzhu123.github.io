@@ -1,9 +1,8 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"COLM":
+  url: https://colmweb.org/
+  color: "#82A6B1"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"Preprint":
+  url: https://arxiv.org/
+  color: "#B41A1B"
 
-"Vision":
-  color: "#009f36"

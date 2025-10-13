@@ -1423,3 +1423,13 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+footer.fixed-bottom,
+footer.sticky-bottom {
+  display: none !important;
+}
+
+/* Extra spacing at bottom of About page when footer is hidden */
+.post.about-page {
+  padding-bottom: 125px; /* tweak as needed */
+}
