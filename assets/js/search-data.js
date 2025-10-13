@@ -40,10 +40,10 @@ ninja.data = [{
           title: 'I received the Provost’s Undergrad Research Fellowship at USC !',
           description: "",
           section: "News",},{id: "news-our-preprint-on-auditing-llm-apis-is-now-available-on-arxiv",
-          title: 'Our preprint on Auditing LLM APIs is now available on arXiv !',
+          title: 'Our preprint on Auditing LLM APIs is now available on arXiv',
           description: "",
           section: "News",},{id: "news-our-paper-on-llm-unlearning-has-been-accepted-to-colm-2025",
-          title: 'Our paper on LLM Unlearning has been accepted to COLM 2025 !',
+          title: 'Our paper on LLM Unlearning has been accepted to COLM 2025',
           description: "",
           section: "News",},{
         id: 'social-scholar',
