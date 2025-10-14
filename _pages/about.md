@@ -24,10 +24,10 @@ latest_posts:
   scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Hi, I'm Xiaoyuan ; ) I'm a 4th-year undergrad at [USC](https://www.usc.edu/)<img src="/assets/img/usc.svg" alt="USC logo" style="height:1.3em; vertical-align:-0.2em; margin-left:0.25em;" /> , double majoring in computer science and applied math. I'm very fortunate to be advised by [Prof. Willie Neiswanger](https://willieneis.github.io/), [Prof. Robin Jia](https://robinjia.github.io/), and [Prof. Xuezhe Ma](https://xuezhemax.github.io/). I had a wonderful time interning at [USC Interaction Lab](https://uscinteractionlab.web.app/)<img src="/assets/img/interaction_lab.png" alt="Interaction Lab logo" style="height:1.25em; vertical-align:-0.2em; margin-left:0.25em;" /> in summer 2023, at [Center for AI Safety](https://safe.ai/)<img src="/assets/img/cais_logo.png" alt="CAIS logo" style="height:1.25em; vertical-align:-0.2em; margin-left:0.25em;" /> in winter 2023, and with [Prof. Steven Wu](https://zstevenwu.com/) at [CMU S3D](https://s3d.cmu.edu/)<img src="/assets/img/cmu_red_simple.png" alt="CMU logo" style="height:1.25em; vertical-align:-0.2em; margin-left:0.25em;" /> in summer 2025.
 
-Hi, I'm Xiaoyuan ; ) I'm a fourth-year student at [University of Southern California](https://www.usc.edu/), double majoring in Computer Science and Applied Mathematics. 
+My research mainly focuses on developing **efficient and effective** training- and inference-time methods to improve model safety and usability. 
 
-I conduct research on 
-
+Before AI, I had a bit 
 
 **I’m applying to Ph.D. programs in Fall 2025!**
