@@ -49,11 +49,25 @@ ninja.data = [{
           title: 'Our paper on 🧹 LLM Unlearning has been accepted to COLM 2025',
           description: "",
           section: "News",},{
+        id: 'social-email',
+        title: 'email',
+        section: 'Socials',
+        handler: () => {
+          window.open("mailto:%78%7A%68%75%39%38%33%39@%75%73%63.%65%64%75", "_blank");
+        },
+      },{
         id: 'social-scholar',
         title: 'Google Scholar',
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=a8yv0nEAAAAJ", "_blank");
+        },
+      },{
+        id: 'social-github',
+        title: 'GitHub',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://github.com/xyzhu123", "_blank");
         },
       },{
         id: 'social-x',
@@ -68,12 +82,5 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/xiaoyuan-zhu-38005a224", "_blank");
-        },
-      },{
-        id: 'social-email',
-        title: 'email',
-        section: 'Socials',
-        handler: () => {
-          window.open("mailto:%78%7A%68%75%39%38%33%39@%75%73%63.%65%64%75", "_blank");
         },
       },];
