@@ -73,11 +73,11 @@ layout: default
       {% include selected_papers.liquid %}
       <p class="text-muted" style="font-size: 0.9rem;">
         {% assign scholar_userid = site.data.socials.scholar_userid %}
-        <span style="color: #f00;">*</span> Check my
+        <strong><span style="color: #f00;">*</span></strong> Check my
         <a style="color: DodgerBlue;" href="{% if scholar_userid %}https://scholar.google.com/citations?user={{ scholar_userid }}{% else %}{{ '/publications/' | relative_url }}{% endif %}">
           google scholar
         </a>
-        for the full list
+        for a full list
       </p>
     {% endif %}
 
