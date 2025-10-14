@@ -35,4 +35,4 @@ My research mainly focuses on developing **efficient and effective** training-ti
 Alongside my research, I co-lead [USC's AI Safety Club](https://aisafetyusc.notion.site/About-Us-026a440a9c204050b0160121aab8a88a), a student group promoting safety in advanced AI systems. We run semester-long programs on [introductory](https://aisafetyusc.notion.site/Intro-Track-da1b7bbf96db436ba365dbd41f8db686) and [technical](https://aisafetyusc.notion.site/Advanced-Track-b331dfaa45a44eae82852ed1b2dc9303) topics. I’ve also explored [computational neuroscience 🧠](assets/pdf/CNTC_2024_Poster.pdf).
 
 
-**I’m applying to Ph.D. programs for Fall 2026 !**
+**I’m applying to Ph.D. programs for Fall 2026 ! ✨**
