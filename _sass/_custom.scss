@@ -1,6 +1,6 @@
 // Custom styles
 
-$profile-social-font-size: 2rem;
+$profile-social-font-size: 1.5rem;
 
 .profile .social.profile-social {
   margin-top: -2rem;
@@ -26,13 +26,13 @@ $profile-social-font-size: 2rem;
 }
 
 .post.about-page .profile {
-  margin-top: -70px; 
+  margin-top: -20px; 
 }
 
 /* Make the profile photo smaller on desktop/tablet */
 @media (min-width: 576px) {
   .post.about-page .profile {
-    width: 25%; /* was 30% by default */
+    width: 20%; /* was 30% by default */
   }
 }
 
