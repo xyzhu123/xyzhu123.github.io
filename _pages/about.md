@@ -30,4 +30,4 @@ My research mainly focuses on developing **efficient and effective** training- a
 
 Before AI, I had a bit 
 
-**I’m applying to Ph.D. programs in Fall 2025!**
+**I’m applying to Ph.D. programs for Fall 2026!**
