@@ -1,8 +1,28 @@
 "COLM":
   url: https://colmweb.org/
-  color: "#82A6B1"
+  color: "#00737c"
 
 "Preprint":
   url: https://arxiv.org/
   color: "#B41A1B"
 
+"ICML": 
+  url: https://icml.cc/
+  color: "#56423e"
+
+"NAACL": 
+  url: https://naacl.org/
+  color: "#04bebf"
+
+
+"AAAI-SS": 
+  url: https://ojs.aaai.org/index.php/AAAI-SS
+  color: "#bea6a1"
+
+"EMNLP":
+  url: https://2025.emnlp.org/
+  color: "#82A6B1"
+
+"Interspeech":
+  url: https://www.interspeech2025.org/home
+  color:  "#00aab0"
