@@ -48,6 +48,9 @@ ninja.data = [{
           section: "News",},{id: "news-our-paper-on-llm-unlearning-has-been-accepted-to-colm-2025",
           title: 'Our paper on 🧹 LLM Unlearning has been accepted to COLM 2025',
           description: "",
+          section: "News",},{id: "news-introducing-️-hubble-a-suite-of-fully-open-source-llms-for-studying-memorization",
+          title: 'Introducing 🛰️ Hubble, a suite of fully open-source LLMs for studying memorization !...',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
