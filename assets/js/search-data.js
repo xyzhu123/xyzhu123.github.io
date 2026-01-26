@@ -51,6 +51,12 @@ ninja.data = [{
           section: "News",},{id: "news-introducing-️-hubble-a-suite-of-fully-open-source-llms-for-studying-memorization",
           title: 'Introducing 🛰️ Hubble, a suite of fully open-source LLMs for studying memorization !...',
           description: "",
+          section: "News",},{id: "news-our-paper-auditing-black-box-llm-apis-has-been-accepted-to-iclr-2026",
+          title: 'Our paper 🔍 Auditing Black-Box LLM APIs has been accepted to ICLR 2026!...',
+          description: "",
+          section: "News",},{id: "news-our-paper-hubble-has-been-accepted-to-iclr-2026",
+          title: 'Our paper 🔭 Hubble has been accepted to ICLR 2026!',
+          description: "",
           section: "News",},{
         id: 'social-email',
         title: 'email',
