@@ -6,4 +6,4 @@ related_posts: false
 featured: true
 ---
 
-Our paper 🔍 [Auditing Black-Box LLM APIs](https://arxiv.org/abs/2506.06975) has been accepted to [ICLR 2026](https://iclr.cc/)!
+Our paper 🔍 [Auditing Black-Box LLM APIs](https://arxiv.org/abs/2506.06975) has been accepted to [ICLR 2026](https://iclr.cc/).

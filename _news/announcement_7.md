@@ -6,4 +6,4 @@ related_posts: false
 featured: true
 ---
 
-Our paper 🔭 [Hubble](https://arxiv.org/abs/2510.19811) has been accepted to [ICLR 2026](https://iclr.cc/)!
+Our paper 🔭 [Hubble](https://arxiv.org/abs/2510.19811) has been accepted to [ICLR 2026](https://iclr.cc/).
