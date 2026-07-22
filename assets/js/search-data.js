@@ -9,12 +9,7 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "news-i-received-the-provost-s-undergrad-research-fellowship-at-usc",
+  },{id: "news-i-received-the-provost-s-undergrad-research-fellowship-at-usc",
           title: 'I received the Provost’s Undergrad Research Fellowship at USC.',
           description: "",
           section: "News",},{id: "news-our-new-version-of-analysis360-is-released",
