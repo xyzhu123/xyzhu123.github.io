@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Amos • 朱孝缘（Zhū Xiào-yuán）• xzhu9839 [at] usc [dot] edu
+subtitle: Amos • 朱孝缘（Zhū Xiào-yuán）• xyzhu123 [at] ttic [dot] edu
 
 profile:
   align: right
