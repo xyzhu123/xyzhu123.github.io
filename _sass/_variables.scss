@@ -26,7 +26,9 @@ $yellow-color: #efcc00 !default;
 
 // Named site colors
 $kurisu_red: #b63137 !default; // hyperlinks / theme color
-$oliver_green: #636b2f !default; // social icons
+$forest_green: #377543 !default; // alternative accent color, kept as an option
+$oliver_green: #636b2f !default; // accent color: links row, subtitle email, "google scholar"
+$accent-color: $oliver_green !default; // <- pick $oliver_green or $forest_green
 $beige-theme-color: $kurisu_red !default;
 $beige-bg-color: #E8DFCA !default;
 

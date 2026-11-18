@@ -30,6 +30,17 @@ strong {
 
 // Custom styles
 
+/* Smaller gap between the "* Check my google scholar" note and the first paper */
+.post.about-page {
+  p.footnote {
+    margin-bottom: 0.6rem;
+  }
+
+  .publications {
+    margin-top: 0.6rem;
+  }
+}
+
 /* Quote block in the About bio (the "last updated" line): standard quote
    with the colored bar on the left, but shorter than the theme default */
 .post.about-page .clearfix blockquote {
@@ -64,11 +75,11 @@ strong {
   }
 }
 
-/* Oliver-green links: the email in the subtitle, and "google scholar" in the
+/* Accent-colored links: the email in the subtitle, and "google scholar" in the
    publications note */
 .post.about-page a.email-link,
 .post.about-page a.scholar-link {
-  color: $oliver_green;
+  color: $accent-color;
 
   &:hover {
     color: $kurisu_red;
@@ -79,7 +90,7 @@ $profile-social-font-size: 1.15rem; // label text size
 $profile-social-gap: 0.7rem; // space on each side of the "/" separators
 
 /* Social links: centered row below the bio, above news.
-   Each link shows a text label only (icons hidden), with " / " between links.
+   Each link shows a text label only (icons hidden), with a small " / " between links.
    The label text comes from each link's title attribute. */
 .post.about-page .social.profile-social {
   margin: 0.75rem 0 1rem;
@@ -96,7 +107,7 @@ $profile-social-gap: 0.7rem; // space on each side of the "/" separators
       margin: 0;
       font-family: $site-font;
       font-size: $profile-social-font-size !important;
-      color: $oliver_green;
+      color: $accent-color;
       text-decoration: none;
     }
 
@@ -119,10 +130,12 @@ $profile-social-gap: 0.7rem; // space on each side of the "/" separators
       color: $kurisu_red;
     }
 
-    /* " / " separator between links */
+    /* small " / " separator between links */
     a:not(:last-child)::after {
       content: "/";
       margin: 0 $profile-social-gap;
+      font-size: 0.75em; // smaller than the link text
+      vertical-align: 0.08em; // keeps the small slash centered on the text
       color: var(--global-text-color); // black (white in dark mode)
     }
   }
