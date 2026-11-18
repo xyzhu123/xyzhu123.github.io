@@ -35,12 +35,6 @@ layout: default
         {% if page.profile.more_info %}
           <div class="more-info">{{ page.profile.more_info }}</div>
         {% endif %}
-        {% if page.profile.social %}
-          <div class="social profile-social">
-            <div class="contact-icons">{% include social.liquid %}</div>
-            <div class="contact-note">{{ site.contact_note }}</div>
-          </div>
-        {% endif %}
         {% if page.subtitle %}
           <p class="desc mobile-profile-subtitle">{{ page.subtitle }}</p>
         {% endif %}
@@ -48,6 +42,13 @@ layout: default
     {% endif %}
 
     <div class="clearfix">{{ content }}</div>
+
+    {% if page.profile and page.profile.social %}
+      <div class="social profile-social">
+        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-note">{{ site.contact_note }}</div>
+      </div>
+    {% endif %}
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
@@ -72,9 +73,9 @@ layout: default
       </h2>
       <p class="text-muted small footnote" style="font-size:0.9rem; margin-top:0.25rem;">
         {% assign scholar_userid = site.data.socials.scholar_userid %}
-        <strong><span style="color: #f00;">*</span></strong>
+        <strong><span style="color: var(--global-text-color);">*</span></strong>
         Check my
-        <a style="color: DodgerBlue;" href="{% if scholar_userid %}https://scholar.google.com/citations?user={{ scholar_userid }}{% else %}{{ '/publications/' | relative_url }}{% endif %}">
+        <a class="scholar-link" href="{% if scholar_userid %}https://scholar.google.com/citations?user={{ scholar_userid }}{% else %}{{ '/publications/' | relative_url }}{% endif %}">
           google scholar
         </a>
         for a full list of publications

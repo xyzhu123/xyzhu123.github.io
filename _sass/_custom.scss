@@ -1,25 +1,132 @@
+/* Site fonts. To switch, change $site-font (and $about-font-size) below. */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;500;700&display=swap");
+
+$font-compact: "Roboto Condensed", Roboto, sans-serif; // option 1: compact sans
+$font-serif: "Times New Roman", Times, serif; // option 2: Times New Roman
+
+$site-font: $font-serif; // <- pick $font-compact or $font-serif; used for all text on the site
+$about-font-size: 1rem; // size of the About bio; 0.9rem suits the compact font
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar,
+.btn,
+.popover,
+.tooltip {
+  font-family: $site-font;
+}
+
+/* The theme sets bold text to weight 500, which Times New Roman does not have
+   (it would fall back to regular), so use true bold. */
+b,
+strong {
+  font-weight: 700;
+}
+
 // Custom styles
 
-$profile-social-font-size: 1.1rem;
+/* Quote block in the About bio (the "last updated" line): standard quote
+   with the colored bar on the left, but shorter than the theme default */
+.post.about-page .clearfix blockquote {
+  font-size: inherit;
+  margin: 0.5em 0;
+  padding: 0.2em 0.7em;
 
-.profile .social.profile-social {
-  margin-top: -2rem;
+  p {
+    margin-bottom: 0;
+  }
+}
+
+/* Publications: hide the venue badge column ("Preprint", "ICLR", ...) and
+   let each entry start at the left edge, using the full width */
+.publications ol.bibliography li .row {
+  > .abbr {
+    display: none;
+  }
+
+  > .col-sm-8 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+/* Tighter rows in the news list, to match the bio's line spacing */
+.post.about-page .news table {
+  td,
+  th {
+    padding: 0.15rem 0.3rem;
+    line-height: 1.45;
+  }
+}
+
+/* Oliver-green links: the email in the subtitle, and "google scholar" in the
+   publications note */
+.post.about-page a.email-link,
+.post.about-page a.scholar-link {
+  color: $oliver_green;
+
+  &:hover {
+    color: $kurisu_red;
+  }
+}
+
+$profile-social-font-size: 1.15rem; // label text size
+$profile-social-gap: 0.7rem; // space on each side of the "/" separators
+
+/* Social links: centered row below the bio, above news.
+   Each link shows a text label only (icons hidden), with " / " between links.
+   The label text comes from each link's title attribute. */
+.post.about-page .social.profile-social {
+  margin: 0.75rem 0 1rem;
   text-align: center;
-  
+
   .contact-icons {
     margin-bottom: 0.2rem;
-    
+    font-size: $profile-social-font-size;
+    line-height: 1.8;
+
     a {
+      display: inline-block;
+      white-space: nowrap;
+      margin: 0;
+      font-family: $site-font;
       font-size: $profile-social-font-size !important;
-      margin: 3px;
-      
-      // Increase selector specificity to avoid !important
-      a.profile-social-icon i {
-        font-size: $profile-social-font-size;
-      }
+      color: $oliver_green;
+      text-decoration: none;
+    }
+
+    /* text label */
+    a::before {
+      content: attr(title);
+      text-transform: lowercase;
+    }
+
+    a[title="X"]::before {
+      content: "x.com";
+    }
+
+    /* hide the icons */
+    a i {
+      display: none;
+    }
+
+    a:hover {
+      color: $kurisu_red;
+    }
+
+    /* " / " separator between links */
+    a:not(:last-child)::after {
+      content: "/";
+      margin: 0 $profile-social-gap;
+      color: var(--global-text-color); // black (white in dark mode)
     }
   }
-  
+
   .contact-note {
     font-size: 0.8rem;
   }
@@ -32,12 +139,25 @@ $profile-social-font-size: 1.1rem;
 /* Make the profile photo smaller on desktop/tablet */
 @media (min-width: 576px) {
   .post.about-page .profile {
-    width: 20%; /* was 30% by default */
-  }
-}
+    /* Photo spans from the subtitle line down to the end of the first paragraph */
+    width: 126px; /* was 30% by default */
+    margin-top: -36px; /* pulls the photo up level with the subtitle line */
 
-.post.about-page .profile .profile-social {
-  margin-top: -50px;
+    figure {
+      margin-bottom: 0;
+    }
+  }
+
+  /* Bio text size and spacing */
+  .post.about-page .clearfix {
+    font-size: $about-font-size;
+    line-height: 1.45;
+
+    p,
+    ul {
+      margin-bottom: 0.5em;
+    }
+  }
 }
 
 .post.about-page .post-header {
@@ -55,16 +175,13 @@ $profile-social-font-size: 1.1rem;
   }
   .post.about-page .mobile-profile-subtitle {
     display: block; /* show the one under the profile socials */
-    margin-top: -0.75rem;
+    margin-top: 0.5rem;
     text-align: center;
     color: var(--global-text-color-light);
   }
 
   .post.about-page .profile {
     margin-top: 0; 
-  }
-  .post.about-page .profile .profile-social {
-    margin-top: 0.75; 
   }
   .post.about-page .post-header {
     margin-bottom: 0rem; 
