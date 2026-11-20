@@ -27,7 +27,7 @@ latest_posts:
 ---
 Hi, I'm Xiaoyuan, a 1st year PhD student at [TTIC](https://www.ttic.edu/) advised by [Prof. Nicholas Tomlin](https://nickatomlin.github.io/). Previously, I was an undergrad at [USC](https://www.usc.edu/), where I was fortunate to be advised by [Prof. Willie Neiswanger](https://willieneis.github.io/), [Prof. Robin Jia](https://robinjia.github.io/), and [Prof. Xuezhe Ma](https://xuezhemax.github.io/). I had wonderful time interning at [USC Interaction Lab](https://uscinteractionlab.web.app/) (summer 2023), [CAIS](https://safe.ai/) (winter 2023), and with [Prof. Steven Wu](https://zstevenwu.com/) at [CMU S3D](https://s3d.cmu.edu/) (summer 2025).
 
-My research asks how people can navigate a world increasingly filled with AI outputs while keeping the ability to understand the world, validate what we know, and communicate with each other. Some directions I'm currently interested in:
+My research investigates how people can navigate a world increasingly filled with AI outputs while keeping the ability to understand the world, validate what we know, and communicate with each other. Some directions I'm currently interested in:
 - Building AI systems that are both formally verifiable and human verifiable.
 - Training models that translate domain-specific results from strong but opaque solvers into explanations people can learn from.
 - Keeping model training and iteration robust on AI-saturated web data.
