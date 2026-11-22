@@ -34,7 +34,7 @@ My research investigates how people can navigate a world increasingly filled wit
 <!-- - Developing systems that help people navigate and verify information on an AI-saturated web.  -->
 
 
-> The website was last updated on **Nov. 12, 2026**
+The website was last updated on **Nov. 12, 2026**
 
 <!-- Alongside my research, I co-lead [USC's AI Safety Club](https://aisafetyusc.notion.site/About-Us-026a440a9c204050b0160121aab8a88a), a student group promoting safety in advanced AI systems. We run semester-long programs on [introductory](https://aisafetyusc.notion.site/Intro-Track-da1b7bbf96db436ba365dbd41f8db686) and [technical](https://aisafetyusc.notion.site/Advanced-Track-b331dfaa45a44eae82852ed1b2dc9303) topics. I’ve also explored [computational neuroscience 🧠](assets/pdf/CNTC_2024_Poster.pdf). -->
 
